@@ -1,0 +1,12 @@
+import express from "express";
+import healthRoute from "./routes/health";
+
+const app = express();
+const PORT = 3000;
+
+app.use(express.json());
+app.use("/health", healthRoute);
+
+app.listen(PORT, () => {
+  console.log(`🚀 Backend running at http://localhost:${PORT}`);
+});
