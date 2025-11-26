@@ -1,0 +1,5 @@
+{
+  "name": "web_game_like_steam",
+  "private": true,
+  "workspaces": ["backend", "frontend", "shared"]
+}
