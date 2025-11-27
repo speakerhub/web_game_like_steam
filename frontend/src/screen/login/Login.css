@@ -1,0 +1,83 @@
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(180deg, #0f0c29, #302b63, #24243e);
+  color: #fff;
+}
+
+.login-hero {
+  text-align: center;
+  padding: 5rem 2rem;
+}
+
+.login-hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  background: linear-gradient(90deg, #7b3fe4, #e448b1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.login-hero p {
+  font-size: 1.2rem;
+  margin-bottom: 3rem;
+}
+
+.login-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.login-buttons .btn {
+  padding: 0.8rem 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: none;
+}
+
+.login-buttons .google {
+  background-color: #db4437;
+  color: white;
+}
+.login-buttons .google:hover {
+  background-color: #c33d2e;
+}
+
+.login-buttons .facebook {
+  background-color: #1877f2;
+  color: white;
+}
+.login-buttons .facebook:hover {
+  background-color: #155bc1;
+}
+
+.login-buttons .github {
+  background-color: #24292f;
+  color: white;
+}
+.login-buttons .github:hover {
+  background-color: #1b1f23;
+}
+
+.login-buttons .email {
+  background-color: #6b7280;
+  color: white;
+}
+.login-buttons .email:hover {
+  background-color: #4b5563;
+}
+
+.login-footer {
+  margin-top: auto;
+  padding: 2rem;
+  text-align: center;
+  background: #1b1b2f;
+}

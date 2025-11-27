@@ -1,0 +1,75 @@
+.community-container {
+  min-height: 100vh;
+  background: #0f111a;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Banner */
+.community-banner {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #2b1f4a, #4b3b9a, #1b0f30);
+  box-shadow: 0 4px 20px rgba(150, 80, 255, 0.4);
+}
+
+.community-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.community-subtitle {
+  font-size: 1.2rem;
+  opacity: 0.8;
+}
+
+/* Posts */
+.community-posts {
+  max-width: 900px;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.community-post {
+  display: flex;
+  align-items: center;
+  background: #141827;
+  border-radius: 16px;
+  padding: 16px;
+  box-shadow: 0 4px 15px rgba(100, 50, 180, 0.4);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.community-post:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 25px rgba(150, 80, 255, 0.6);
+}
+
+.community-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #7b3fe4, #e448b1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: 16px;
+}
+
+.community-message h4 {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.community-message p {
+  margin: 2px 0 0 0;
+  opacity: 0.8;
+}

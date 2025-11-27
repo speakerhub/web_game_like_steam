@@ -1,5 +1,8 @@
 {
   "name": "web_game_like_steam",
   "private": true,
-  "workspaces": ["backend", "frontend", "shared"]
+  "workspaces": ["backend", "frontend", "shared", "NPC Chat Adventure"],
+  "devDependencies": {
+    "autoprefixer": "^10.4.22"
+  }
 }

@@ -1,0 +1,73 @@
+.btn {
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Primary - main theme button */
+.btn.primary {
+  background: linear-gradient(90deg, #7b3fe4, #e448b1);
+  color: #fff;
+}
+
+.btn.primary:hover {
+  transform: scale(1.05);
+  background: linear-gradient(90deg, #a86bff, #ff6acb);
+}
+
+/* Secondary - outline */
+.btn.secondary {
+  background: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.btn.secondary:hover {
+  background: #fff;
+  color: #7b3fe4;
+}
+
+/* Login buttons */
+.btn.google {
+  background: #db4437;
+  color: #fff;
+}
+
+.btn.google:hover {
+  background: #e35c50;
+}
+
+.btn.facebook {
+  background: #4267b2;
+  color: #fff;
+}
+
+.btn.facebook:hover {
+  background: #365899;
+}
+
+.btn.github {
+  background: #000;
+  color: #fff;
+}
+
+.btn.github:hover {
+  background: #222;
+}
+
+.btn.email {
+  background: #555;
+  color: #fff;
+}
+
+.btn.email:hover {
+  background: #777;
+}
